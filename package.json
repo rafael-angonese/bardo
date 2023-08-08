@@ -1,10 +1,13 @@
 {
   "name": "bardo",
   "version": "1.0.0",
-  "description": "",
+  "description": "ai langchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "loader": "tsx src/loader.ts",
+    "qa": "tsx src/qa.ts",
+    "search": "tsx src/search.ts"
   },
   "author": "",
   "license": "ISC",
